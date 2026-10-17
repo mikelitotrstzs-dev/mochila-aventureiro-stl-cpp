@@ -1,4 +1,4 @@
-CXX ?= g++
+CXX ?= g++ 
 CXXFLAGS ?= -std=c++11 -Wall -Wextra -pedantic
 CPPFLAGS ?= -Iinclude
 DOMAIN := src/Item.cpp src/Personagem.cpp src/Pocao.cpp src/Equipamento.cpp src/ResumoItem.cpp src/Inventario.cpp
