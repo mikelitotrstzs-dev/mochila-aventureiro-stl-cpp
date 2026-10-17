@@ -1,4 +1,4 @@
-#include "ResumoItem.hpp"
+#include "ResumoItem.hpp" 
 ResumoItem::ResumoItem(const Item& item)
     : codigo_(item.codigo()), nome_(item.nome()), categoria_(item.categoria()),
       peso_(item.peso()), quantidade_(item.quantidade()) {}
