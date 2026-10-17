@@ -1,4 +1,4 @@
-# Relação entre aulas e implementação
+# Relação entre aulas e implementação 
 
 As aulas contêm exemplos e exercícios de treino. Aplicar seus conceitos não
 significa copiar todos esses exercícios ou adicionar operadores sem significado.
