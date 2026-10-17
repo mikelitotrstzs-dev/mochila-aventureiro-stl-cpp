@@ -1,7 +1,7 @@
 #ifndef RESUMO_ITEM_HPP
 #define RESUMO_ITEM_HPP
 #include "Item.hpp"
-// Projeção independente para ordenar sem copiar/fatiar uma classe abstrata.
+// Projeção independente para ordenar sem copiar/fatiar uma classe abstrata. 
 class ResumoItem {
 private:
     int codigo_;
