@@ -3,3 +3,7 @@ sistema.exe
 *.o
 *.db
 .DS_Store
+build/
+*.d
+*.gcda
+*.gcno

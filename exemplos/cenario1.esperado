@@ -1,0 +1,8 @@
+OK: Cadastro codigo=1 quantidade=1
+OK: Coleta codigo=1 quantidade=2
+OK: Uso codigo=1 quantidade=1
+2 | Espada | Equipamento | 2000 g | qtd=1
+1 | Pocao pequena | Pocao | 100 g | qtd=2
+Vida: 80/100 | Ataque: 25 | Peso: 2200/20000 g
+Erro: Equipamento ativo: troque antes de descartar.
+Encerrado.
