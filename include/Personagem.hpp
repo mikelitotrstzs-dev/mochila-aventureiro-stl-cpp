@@ -1,5 +1,5 @@
 #ifndef PERSONAGEM_HPP
-#define PERSONAGEM_HPP
+#define PERSONAGEM_HPP 
 #include <string>
 class Personagem {
 private:
