@@ -30,7 +30,7 @@ Os dados existem apenas durante a execução; não há persistência nem serviç
 ## Regras
 O personagem começa com 50 de vida. A cura e o bônus variam de 1 a 100.
 Peso de 1 a 20000 gramas. Quantidades de 1 a 1000; máximo 1000 por código.
-Nomes têm de 1 a 60 caracteres após remover espaços das extremidades.
+Nomes têm de 1 a 60 bytes em std::string após remover espaços das extremidades.
 Códigos não podem repetir, inclusive entre tipos diferentes. Nomes podem repetir.
 Poção não é consumida se a vida já está cheia. Cura nunca ultrapassa 100.
 Equipamento aumenta o ataque base; trocar substitui o bônus, não o acumula.
@@ -67,3 +67,6 @@ O histórico inclui cadastro, coleta, uso e descarte; consultas não são regist
 Ao apagar a última unidade, o código fica disponível para novo cadastro.
 Limites numéricos são verificados antes de multiplicação ou soma; operações
 com quantidade inválida não chegam a alterar o inventário.
+
+A construção de um inventário com personagem externo exige que esteja sem
+equipamento, pois o catálogo começa vazio. Personagem já equipado é rejeitado.

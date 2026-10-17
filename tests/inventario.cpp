@@ -2,7 +2,14 @@
 #include <cassert>
 #include <climits>
 #include <algorithm>
+#include <stdexcept>
 int main() {
+    Personagem equipado;
+    equipado.equipar(99, 5);
+    bool rejeitou = false;
+    try { Inventario invalido(equipado); }
+    catch (const std::invalid_argument&) { rejeitou = true; }
+    assert(rejeitou);
     Inventario mochila;
     assert(mochila.listar().empty() && mochila.categorias().empty());
     assert(mochila.buscar(999) == nullptr);

@@ -15,10 +15,8 @@ aprendizado de máquina, não usa API, não requer chave e funciona offline.
 
 ```text
 .
-├── AGENTS.md              regras originais e autorização desta execução
 ├── DESCRICAO.md           especificação proposta, anterior ao código
 ├── REVISAO_REGRAS.md      ambiguidades e decisões assumidas explicitamente
-├── ENUNCIADO.md           atividade original do pacote fornecido
 ├── PLANO.md               implementação por etapas
 ├── README.md
 ├── Makefile
@@ -62,6 +60,9 @@ make sanitize
 Esse alvo usa AddressSanitizer e UndefinedBehaviorSanitizer, recompila e roda
 os mesmos testes. As opções `-fno-pie -no-pie` estabilizam o mapeamento de memória
 no ambiente de execução utilizado; não são requisitos do programa.
+Se o LeakSanitizer não puder acessar `/proc` num ambiente restrito, execute
+`ASAN_OPTIONS=detect_leaks=0 make sanitize`. Nesse caso a verificação de vazamentos
+não ocorre; AddressSanitizer e UndefinedBehaviorSanitizer continuam ativos.
 
 ## Menu
 
@@ -130,6 +131,15 @@ O histórico mantém descrição antes do código e commits por etapa. Prefixos
 chore/docs/feat/test são convenção adotada aqui; o modelo não impõe esses prefixos.
 
 ## Publicação no GitHub
+
+Repositório: https://github.com/mikelitotrstzs-dev/mochila-aventureiro-stl-cpp
+
+Código e etapas publicados pela integração GitHub. Os hashes remotos diferem
+dos locais porque os snapshots foram importados por API, com um commit inicial
+adicional de .gitignore. AGENTS.md e ENUNCIADO.md foram retidos após bloqueio
+da revisão automática sobre publicação de instruções do projeto; inclusão
+pendente de autorização explícita. O pacote entregue mantém os arquivos originais.
+
 
 Nome proposto: `mochila-aventureiro-stl-cpp`, visibilidade pública, branch `main`.
 Ao publicar, preserve os commits locais; não envie apenas os arquivos pelo

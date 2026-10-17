@@ -1,9 +1,13 @@
 #include "Inventario.hpp"
 #include <algorithm>
+#include <stdexcept>
 const int Inventario::CAPACIDADE;
 const int Inventario::MAX_QUANTIDADE;
 Inventario::Inventario() : personagem_() {}
-Inventario::Inventario(const Personagem& personagem) : personagem_(personagem) {}
+Inventario::Inventario(const Personagem& personagem) : personagem_(personagem) {
+    if (personagem.equipamento() != 0)
+        throw std::invalid_argument("Personagem inicial deve estar sem equipamento.");
+}
 const Item* Inventario::buscar(int codigo) const {
     std::map<int, Pocao>::const_iterator p = pocoes_.find(codigo);
     if (p != pocoes_.end()) return &p->second;
