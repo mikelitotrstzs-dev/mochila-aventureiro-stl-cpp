@@ -1,5 +1,5 @@
 #ifndef UTIL_HPP
-#define UTIL_HPP
+#define UTIL_HPP 
 #include <string>
 template <typename T> T limitar(T valor, T minimo, T maximo) {
     if (valor < minimo) return minimo;
