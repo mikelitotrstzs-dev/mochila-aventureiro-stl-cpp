@@ -1,7 +1,7 @@
 #ifndef INTERFACE_HPP
 #define INTERFACE_HPP
 #include <istream>
-#include <ostream>
+#include <ostream> 
 #include "Inventario.hpp"
 // Apresentação fora do domínio: até operator<< pertence à interface.
 std::ostream& operator<<(std::ostream& saida, const ResumoItem& item);
