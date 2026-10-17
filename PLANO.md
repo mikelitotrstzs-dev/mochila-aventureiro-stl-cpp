@@ -1,7 +1,7 @@
 # Plano de implementação
 
 Ler DESCRICAO.md e AGENTS.md antes de cada alteração. Cada etapa termina em
-compilação e validação antes do commit. Sem lambdas ou bibliotecas externas.
+compilação e validação antes do commit. Sem lambdas ou bibliotecas externas. 
 
 1. **Domínio:** Item abstrato, Pocao, Equipamento e Personagem em pares
    include/*.hpp e src/*.cpp. Resultado<T> e limitar<T> em headers: templates
