@@ -12,7 +12,6 @@ aprendizado de máquina, não usa API, não requer chave e funciona offline.
 ├── AGENTS.md              instruções originais do modelo fornecido
 ├── ENUNCIADO.md           enunciado original da atividade
 ├── DESCRICAO.md           especificação proposta, anterior ao código
-├── REVISAO_REGRAS.md      ambiguidades e decisões assumidas explicitamente
 ├── PLANO.md               implementação por etapas
 ├── README.md
 ├── Makefile
@@ -20,7 +19,6 @@ aprendizado de máquina, não usa API, não requer chave e funciona offline.
 ├── src/                   implementação, interface e main
 ├── exemplos/              entradas e trechos de saída esperada
 ├── tests/                 testes C++ e execução dos cenários
-└── docs/                  conceitos, defesa oral e validação
 ```
 
 Uma classe comum por par `.hpp`/`.cpp`, com include guards. `Resultado<T>` e
@@ -117,7 +115,4 @@ seguir, mas a IA ajudou em grande parte.
 ## Verificação e estudo
 
 `make test` executa três suites de testes C++ com assert habilitado e três
-cenários de console. Veja [a validação](docs/VALIDACAO.md), o
-[mapeamento das aulas](docs/CONCEITOS.md) e o [guia de defesa](docs/DEFESA.md).
-O histórico mantém descrição antes do código e commits por etapa. Prefixos
-chore/docs/feat/test são convenção adotada aqui; o modelo não impõe esses prefixos.
+cenários de console.  e o histórico mantém descrição antes do código e commits por etapa.
