@@ -1,4 +1,4 @@
-# Um sistema seu, com STL e IA
+# Um sistema seu, com STL e IA 
 
 Atividade da Unidade 2 de Linguagem de Programação I.
 
