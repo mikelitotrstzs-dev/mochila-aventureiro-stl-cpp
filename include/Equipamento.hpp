@@ -1,5 +1,5 @@
 #ifndef EQUIPAMENTO_HPP
-#define EQUIPAMENTO_HPP
+#define EQUIPAMENTO_HPP 
 #include "Item.hpp"
 class Equipamento : public Item {
 private:
