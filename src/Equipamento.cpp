@@ -1,4 +1,4 @@
-#include "Equipamento.hpp"
+#include "Equipamento.hpp" 
 #include <stdexcept>
 Equipamento::Equipamento(int codigo, const std::string& nome, int peso, int bonus)
     : Item(codigo, nome, peso), bonus_(bonus) {
