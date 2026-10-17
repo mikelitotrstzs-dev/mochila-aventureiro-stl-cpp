@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh 
 set -eu
 mkdir -p build
 for entrada in exemplos/*.txt; do
