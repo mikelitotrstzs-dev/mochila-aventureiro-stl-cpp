@@ -1,6 +1,6 @@
 #include "Personagem.hpp"
 #include "Util.hpp"
-#include <stdexcept>
+#include <stdexcept> 
 const int Personagem::VIDA_MAXIMA;
 Personagem::Personagem() : Personagem("Aventureiro") {}
 Personagem::Personagem(const std::string& nome)
