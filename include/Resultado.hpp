@@ -1,5 +1,5 @@
 #ifndef RESULTADO_HPP
-#define RESULTADO_HPP
+#define RESULTADO_HPP 
 #include <string>
 // Template definido no header: cada unidade precisa enxergar sua implementação.
 template <typename T> class Resultado {
