@@ -1,6 +1,6 @@
 #include "Inventario.hpp"
 #include <algorithm>
-#include <stdexcept>
+#include <stdexcept> 
 const int Inventario::CAPACIDADE;
 const int Inventario::MAX_QUANTIDADE;
 Inventario::Inventario() : personagem_() {}
