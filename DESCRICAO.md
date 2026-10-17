@@ -60,3 +60,10 @@ Coletar 2 unidades de 1: quantidade 3, peso 300 g.
 Usar 1: vida 80, quantidade 2, peso 200 g.
 Cadastrar espada 2, peso 2000, bônus 15 e usar 2: ataque 25.
 Descartar 2: rejeitado porque está equipado.
+
+### Precisões após revisão
+O resumo ordena nomes por comparação de `std::string` (bytes, sem colação local).
+O histórico inclui cadastro, coleta, uso e descarte; consultas não são registradas.
+Ao apagar a última unidade, o código fica disponível para novo cadastro.
+Limites numéricos são verificados antes de multiplicação ou soma; operações
+com quantidade inválida não chegam a alterar o inventário.
