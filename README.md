@@ -15,6 +15,8 @@ aprendizado de máquina, não usa API, não requer chave e funciona offline.
 
 ```text
 .
+├── AGENTS.md              instruções originais do modelo fornecido
+├── ENUNCIADO.md           enunciado original da atividade
 ├── DESCRICAO.md           especificação proposta, anterior ao código
 ├── REVISAO_REGRAS.md      ambiguidades e decisões assumidas explicitamente
 ├── PLANO.md               implementação por etapas
@@ -132,17 +134,12 @@ chore/docs/feat/test são convenção adotada aqui; o modelo não impõe esses p
 
 ## Publicação no GitHub
 
-Repositório: https://github.com/mikelitotrstzs-dev/mochila-aventureiro-stl-cpp
+Repositório público: https://github.com/mikelitotrstzs-dev/mochila-aventureiro-stl-cpp
 
-Código e etapas publicados pela integração GitHub. Os hashes remotos diferem
-dos locais porque os snapshots foram importados por API, com um commit inicial
-adicional de .gitignore. AGENTS.md e ENUNCIADO.md foram retidos após bloqueio
-da revisão automática sobre publicação de instruções do projeto; inclusão
-pendente de autorização explícita. O pacote entregue mantém os arquivos originais.
+Código, testes e documentação publicados na branch `main`. O histórico mantém
+as etapas do desenvolvimento. Os hashes remotos diferem dos locais porque os
+snapshots foram importados por API, com um commit inicial adicional de .gitignore.
 
-
-Nome proposto: `mochila-aventureiro-stl-cpp`, visibilidade pública, branch `main`.
-Ao publicar, preserve os commits locais; não envie apenas os arquivos pelo
-navegador, pois isso perderia a sequência. Nenhum executável, `.o` ou `.db` deve
-ser incluído. A publicação só deve ser declarada concluída após verificar o
-repositório remoto e seu histórico.
+`AGENTS.md` e `ENUNCIADO.md` foram incluídos em suas versões originais do ZIP
+após autorização explícita do solicitante para publicação pública desses arquivos.
+Nenhum executável, arquivo `.o` ou `.db` foi incluído.
