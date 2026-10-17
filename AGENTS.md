@@ -1,6 +1,6 @@
 # Instruções para a IA neste projeto
 
-- Este é o projeto de um estudante de C++ que está aprendendo STL. Responda
+- Este é o projeto de um estudante de C++ que está aprendendo STL. Responda 
   em português, de forma curta e didática. Quando explicar um conceito, use
   um exemplo pequeno.
 - O sistema está descrito em `DESCRICAO.md`, escrito pelo estudante. O plano
