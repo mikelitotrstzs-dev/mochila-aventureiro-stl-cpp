@@ -2,7 +2,7 @@
 
 Cada .txt contém exatamente as respostas ao menu, uma por linha. Os arquivos
 .esperado são trechos obrigatórios da saída; os testes C++ verificam estado,
-ordenação e ausência de mutação em falhas com mais precisão.
+ordenação e ausência de mutação em falhas com mais precisão. 
 
 - cenario1: cadastra poção, coleta duas, usa uma; cadastra/equipa espada.
   Vida 80, ataque 25, peso 2200 g; tentativa de descartar espada é recusada.
