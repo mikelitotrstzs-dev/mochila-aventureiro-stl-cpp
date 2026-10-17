@@ -2,7 +2,7 @@
 #include "Util.hpp"
 #include <sstream>
 #include <limits>
-#include <stdexcept>
+#include <stdexcept> 
 std::ostream& operator<<(std::ostream& saida, const ResumoItem& item) {
     return saida << item.codigo() << " | " << item.nome() << " | " << item.categoria()
                  << " | " << item.peso() << " g | qtd=" << item.quantidade();
