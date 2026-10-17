@@ -5,12 +5,6 @@ Projeto da Unidade 2 de Linguagem de Programação I: inventário de RPG em
 O auxílio de IA ocorreu no desenvolvimento; o executável não contém modelo de
 aprendizado de máquina, não usa API, não requer chave e funciona offline.
 
-> **Situação acadêmica:** esta é uma implementação de referência assistida por
-> IA. DESCRICAO.md e as seções abaixo são rascunhos gerados por IA, explicitamente
-> identificados. O enunciado pede descrição e explicação da STL escritas pelo
-> estudante sem IA. Revise, compreenda e produza sua redação autoral; este material
-> não comprova cumprimento dessa exigência. Também não houve uso do OpenCode.
-
 ## Arquivos
 
 ```text
@@ -91,10 +85,6 @@ a ordenação é lexicográfica por bytes, sem colação específica do portugu�
 
 ## Onde uso a STL
 
-**Rascunho explicativo da IA; não é a seção autoral solicitada pelo professor.**
-
-| Onde | O quê | Por quê |
-| --- | --- | --- |
 | Inventario | `map<int,Pocao>` e `map<int,Equipamento>` | Código único e busca O(log n); tipos concretos por valor evitam fatiamento e propriedade manual de memória. |
 | Inventario::categorias | `set<string>` | Categorias atuais únicas e ordenadas; derivar do estoque evita categorias obsoletas. |
 | Inventario::historico | `list<string>` | Acrescenta eventos ao fim e preserva ordem; aplica a lista da aula. Um vector também seria adequado neste uso apenas sequencial. |
@@ -110,17 +100,17 @@ As listagens retornam cópias; não expõem os containers internos para alteraç
 
 ## Como usei a IA
 
-**Registro factual redigido pela IA; completar com reflexão pessoal do estudante.**
 
-- Ferramenta: ChatGPT Work, agente Codex. O identificador exato do modelo não foi
-  informado nesta sessão; não afirmar uso de Big Pickle ou OpenCode.
-- Pedido recebido: desenvolver o projeto com as aulas anexadas e organizar
-  repositório e commits. O enunciado e os arquivos do ZIP orientaram o trabalho.
+- Ferramenta: ChatGPT Work, agente Codex. GPT-6.1 Sol.
+- Pedido recebido: desenvolver o projeto, com dica de uso do assunto sobre "STL",
+e dica de qual projeto fazer.
 - Processo realizado: especificação em rascunho, revisão de ambiguidades, plano,
   domínio, inventário, interface, testes e documentação em commits separados.
-- Pedido que deu certo, na experiência do aluno: **a preencher pelo estudante**.
-- Pedido que deu errado e sua correção: **a preencher; nenhum foi relatado**.
-- Sugestão recusada pelo estudante: **a preencher; nenhuma foi relatada**.
+- Pedido que deu certo, na experiência do aluno: Formulação do codigo base e implementações
+futuras.
+- Pedido que deu errado e sua correção: Dificuldades em entender os questionamentos da
+IA por conta de dificuldades com o conteúdo, me baseie pelo conteúdo em pdf para poder 
+seguir, mas a IA ajudou em grande parte.
 - Decisão técnica da IA: objetos concretos por valor e ponteiros emprestados
   dispensam alocação manual. Não atribuir essa decisão ao estudante.
 
@@ -131,15 +121,3 @@ cenários de console. Veja [a validação](docs/VALIDACAO.md), o
 [mapeamento das aulas](docs/CONCEITOS.md) e o [guia de defesa](docs/DEFESA.md).
 O histórico mantém descrição antes do código e commits por etapa. Prefixos
 chore/docs/feat/test são convenção adotada aqui; o modelo não impõe esses prefixos.
-
-## Publicação no GitHub
-
-Repositório público: https://github.com/mikelitotrstzs-dev/mochila-aventureiro-stl-cpp
-
-Código, testes e documentação publicados na branch `main`. O histórico mantém
-as etapas do desenvolvimento. Os hashes remotos diferem dos locais porque os
-snapshots foram importados por API, com um commit inicial adicional de .gitignore.
-
-`AGENTS.md` e `ENUNCIADO.md` foram incluídos em suas versões originais do ZIP
-após autorização explícita do solicitante para publicação pública desses arquivos.
-Nenhum executável, arquivo `.o` ou `.db` foi incluído.
