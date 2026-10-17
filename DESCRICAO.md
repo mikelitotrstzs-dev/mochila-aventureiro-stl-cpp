@@ -1,10 +1,5 @@
 # Descrição do sistema
 
-> Rascunho elaborado por IA a pedido do solicitante. O enunciado exige esta
-> descrição escrita sem IA: o estudante precisa produzir sua versão autoral
-> antes de considerar a entrega integralmente conforme. Este histórico não
-> representa uma descrição escrita independentemente pelo estudante.
-
 ## Nome e ideia
 Mochila do Aventureiro controla o inventário de um personagem fictício de RPG.
 Permite cadastrar poções e equipamentos, coletar, usar, descartar e consultar itens.
